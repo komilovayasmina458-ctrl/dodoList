@@ -1,0 +1,42 @@
+body {
+    background: #333;
+    color: rgb(0, 255, 0);
+    font-family: Arial;
+    padding: 30px;
+}
+
+.block {
+    background: #222;
+    padding: 20px;
+    width: 300px;
+    border-radius: 5px;
+}
+
+input {
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+
+button {
+    width: 100%;
+    padding: 5px;
+    background: rgb(0, 51, 128);
+    color: rgb(0, 255, 255);
+    border: none;
+    cursor: pointer;
+}
+
+.note {
+    margin-top: 10px;
+    padding: 5px;
+    border-bottom: 1px solid #444;
+    display: flex;
+    justify-content: space-between;
+}
+
+.del {
+    color: red;
+    cursor: pointer;
+}
